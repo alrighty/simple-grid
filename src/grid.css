@@ -26,5 +26,5 @@
 .cell { @apply --cell; }
 
 @for $i from 1 to 12 {
-  .cell.$(i)to12 { width: calc(100% * $i / 12); }
+  .cell.$(i)of12 { width: calc(100% * $i / 12); }
 }
